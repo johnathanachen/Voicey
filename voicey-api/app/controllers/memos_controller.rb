@@ -16,6 +16,8 @@ class MemosController < ApplicationController
   # POST /memos
   def create
     @memo = Memo.new(memo_params)
+    # add the current logged in user as the creator of the memo
+    @memo.user = current_user
 
     if @memo.save
       render json: @memo, status: :created, location: @memo
@@ -46,6 +48,6 @@ class MemosController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def memo_params
-      params.permit(:title, :text_body, :date)
+      params.permit(:voice_file, :title, :text_body, :date)
     end
 end
