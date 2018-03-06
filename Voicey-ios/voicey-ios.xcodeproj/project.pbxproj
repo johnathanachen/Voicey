@@ -11,7 +11,7 @@
 		05612A2220008BE70039A940 /* voicy_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05612A2020008BE70039A940 /* voicy_ios.xcdatamodeld */; };
 		05612A2420008BE70039A940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05612A2320008BE70039A940 /* Assets.xcassets */; };
 		05612A2720008BE70039A940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05612A2520008BE70039A940 /* LaunchScreen.storyboard */; };
-		05612A3220008BE70039A940 /* voicy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05612A3120008BE70039A940 /* voicy_iosTests.swift */; };
+		05612A3220008BE70039A940 /* voicey_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05612A3120008BE70039A940 /* voicey_iosTests.swift */; };
 		05612A49200091C80039A940 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05612A47200091C80039A940 /* RegisterViewController.swift */; };
 		05612A4A200091C80039A940 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05612A48200091C80039A940 /* RegisterViewController.xib */; };
 		05612A4D200091D20039A940 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05612A4B200091D20039A940 /* LoginViewController.swift */; };
@@ -31,6 +31,11 @@
 		05612A6A20009F180039A940 /* CreateMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05612A6820009F180039A940 /* CreateMemoViewController.swift */; };
 		05612A6B20009F180039A940 /* CreateMemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05612A6920009F180039A940 /* CreateMemoViewController.xib */; };
 		05612A6E2000A1F10039A940 /* MemoListDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05612A6D2000A1F10039A940 /* MemoListDatasource.swift */; };
+		06F3C9AE648F20C1B4AFD9F0 /* Pods_voicey_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F788F8D04D3D80597E25515 /* Pods_voicey_ios.framework */; };
+		AA403B37F75CE585DA6B0B75 /* Pods_voicey_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622A5A6270E845B3BA8096 /* Pods_voicey_iosTests.framework */; };
+		B8AE4A49204CB5ED00DE8144 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE4A48204CB5ED00DE8144 /* UserModel.swift */; };
+		B8AE4A4B204CB5F600DE8144 /* MemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE4A4A204CB5F600DE8144 /* MemoModel.swift */; };
+		B8AE4A4E204CB90E00DE8144 /* AudioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE4A4D204CB90E00DE8144 /* AudioHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05612A1620008BE70039A940 /* Voicey-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voicey-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05612A1620008BE70039A940 /* voicey-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "voicey-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05612A1920008BE70039A940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05612A2120008BE70039A940 /* voicy_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = voicy_ios.xcdatamodel; sourceTree = "<group>"; };
 		05612A2320008BE70039A940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05612A2620008BE70039A940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05612A2820008BE70039A940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05612A2D20008BE70039A940 /* Voicey-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voicey-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05612A3120008BE70039A940 /* voicy_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicy_iosTests.swift; sourceTree = "<group>"; };
+		05612A2D20008BE70039A940 /* voicey-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voicey-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05612A3120008BE70039A940 /* voicey_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicey_iosTests.swift; sourceTree = "<group>"; };
 		05612A3320008BE70039A940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05612A47200091C80039A940 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		05612A48200091C80039A940 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
@@ -72,6 +77,15 @@
 		05612A6820009F180039A940 /* CreateMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMemoViewController.swift; sourceTree = "<group>"; };
 		05612A6920009F180039A940 /* CreateMemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateMemoViewController.xib; sourceTree = "<group>"; };
 		05612A6D2000A1F10039A940 /* MemoListDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListDatasource.swift; sourceTree = "<group>"; };
+		0DB37113093A015BA02200D4 /* Pods-voicey-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voicey-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-voicey-ios/Pods-voicey-ios.release.xcconfig"; sourceTree = "<group>"; };
+		0F788F8D04D3D80597E25515 /* Pods_voicey_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voicey_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D23133DF2D5742ED628AB65 /* Pods-voicey-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voicey-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-voicey-iosTests/Pods-voicey-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		43622A5A6270E845B3BA8096 /* Pods_voicey_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voicey_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693D077C9B2252B7B7B7AF60 /* Pods-voicey-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voicey-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-voicey-ios/Pods-voicey-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		B8AE4A48204CB5ED00DE8144 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = ../../../../UserModel.swift; sourceTree = "<group>"; };
+		B8AE4A4A204CB5F600DE8144 /* MemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoModel.swift; path = ../../../../MemoModel.swift; sourceTree = "<group>"; };
+		B8AE4A4D204CB90E00DE8144 /* AudioHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHandler.swift; sourceTree = "<group>"; };
+		BBBC733FB9D76E05D57D15F8 /* Pods-voicey-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voicey-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-voicey-iosTests/Pods-voicey-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F3C9AE648F20C1B4AFD9F0 /* Pods_voicey_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA403B37F75CE585DA6B0B75 /* Pods_voicey_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,24 +111,27 @@
 		05612A0D20008BE70039A940 = {
 			isa = PBXGroup;
 			children = (
-				05612A1820008BE70039A940 /* voicy-ios */,
-				05612A3020008BE70039A940 /* voicy-iosTests */,
+				05612A1820008BE70039A940 /* voicey-ios */,
+				05612A3020008BE70039A940 /* voicey-iosTests */,
 				05612A1720008BE70039A940 /* Products */,
+				6DCF3B19030DD40CA53A55FB /* Pods */,
+				D0471896518488D884810206 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		05612A1720008BE70039A940 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05612A1620008BE70039A940 /* Voicey-ios.app */,
-				05612A2D20008BE70039A940 /* Voicey-iosTests.xctest */,
+				05612A1620008BE70039A940 /* voicey-ios.app */,
+				05612A2D20008BE70039A940 /* voicey-iosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05612A1820008BE70039A940 /* voicy-ios */ = {
+		05612A1820008BE70039A940 /* voicey-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B8AE4A4C204CB90600DE8144 /* AudioHandler */,
 				05612A572000926F0039A940 /* Extensions */,
 				05612A43200091710039A940 /* Networking */,
 				05612A3C200091710039A940 /* UI */,
@@ -121,16 +140,16 @@
 				05612A2820008BE70039A940 /* Info.plist */,
 				05612A2020008BE70039A940 /* voicy_ios.xcdatamodeld */,
 			);
-			path = "voicy-ios";
+			path = "voicey-ios";
 			sourceTree = "<group>";
 		};
-		05612A3020008BE70039A940 /* voicy-iosTests */ = {
+		05612A3020008BE70039A940 /* voicey-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				05612A3120008BE70039A940 /* voicy_iosTests.swift */,
+				05612A3120008BE70039A940 /* voicey_iosTests.swift */,
 				05612A3320008BE70039A940 /* Info.plist */,
 			);
-			path = "voicy-iosTests";
+			path = "voicey-iosTests";
 			sourceTree = "<group>";
 		};
 		05612A3C200091710039A940 /* UI */ = {
@@ -205,8 +224,8 @@
 		05612A43200091710039A940 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				B8AE4A47204CB5DF00DE8144 /* Models */,
 				05612A44200091710039A940 /* APIClients */,
-				05612A45200091710039A940 /* Models */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -217,13 +236,6 @@
 				05612A6220009E0A0039A940 /* VoiceyHTTPClient.swift */,
 			);
 			path = APIClients;
-			sourceTree = "<group>";
-		};
-		05612A45200091710039A940 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		05612A46200091890039A940 /* AppDelegateScene */ = {
@@ -254,42 +266,85 @@
 			path = Datasources;
 			sourceTree = "<group>";
 		};
+		6DCF3B19030DD40CA53A55FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				693D077C9B2252B7B7B7AF60 /* Pods-voicey-ios.debug.xcconfig */,
+				0DB37113093A015BA02200D4 /* Pods-voicey-ios.release.xcconfig */,
+				BBBC733FB9D76E05D57D15F8 /* Pods-voicey-iosTests.debug.xcconfig */,
+				1D23133DF2D5742ED628AB65 /* Pods-voicey-iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8AE4A47204CB5DF00DE8144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE4A48204CB5ED00DE8144 /* UserModel.swift */,
+				B8AE4A4A204CB5F600DE8144 /* MemoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8AE4A4C204CB90600DE8144 /* AudioHandler */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE4A4D204CB90E00DE8144 /* AudioHandler.swift */,
+			);
+			path = AudioHandler;
+			sourceTree = "<group>";
+		};
+		D0471896518488D884810206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F788F8D04D3D80597E25515 /* Pods_voicey_ios.framework */,
+				43622A5A6270E845B3BA8096 /* Pods_voicey_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05612A1520008BE70039A940 /* Voicey-ios */ = {
+		05612A1520008BE70039A940 /* voicey-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05612A3620008BE70039A940 /* Build configuration list for PBXNativeTarget "Voicey-ios" */;
+			buildConfigurationList = 05612A3620008BE70039A940 /* Build configuration list for PBXNativeTarget "voicey-ios" */;
 			buildPhases = (
+				73E3079E9CE7F40E90756515 /* [CP] Check Pods Manifest.lock */,
 				05612A1220008BE70039A940 /* Sources */,
 				05612A1320008BE70039A940 /* Frameworks */,
 				05612A1420008BE70039A940 /* Resources */,
+				8B306289703FB00A8B41C7C9 /* [CP] Embed Pods Frameworks */,
+				237A9344C9CF3DE780A96C40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Voicey-ios";
+			name = "voicey-ios";
 			productName = "voicy-ios";
-			productReference = 05612A1620008BE70039A940 /* Voicey-ios.app */;
+			productReference = 05612A1620008BE70039A940 /* voicey-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		05612A2C20008BE70039A940 /* Voicey-iosTests */ = {
+		05612A2C20008BE70039A940 /* voicey-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05612A3920008BE70039A940 /* Build configuration list for PBXNativeTarget "Voicey-iosTests" */;
+			buildConfigurationList = 05612A3920008BE70039A940 /* Build configuration list for PBXNativeTarget "voicey-iosTests" */;
 			buildPhases = (
+				7D3EC0BED87C0819198A12B3 /* [CP] Check Pods Manifest.lock */,
 				05612A2920008BE70039A940 /* Sources */,
 				05612A2A20008BE70039A940 /* Frameworks */,
 				05612A2B20008BE70039A940 /* Resources */,
+				4D070A02DB0FFE0A1CCB1306 /* [CP] Embed Pods Frameworks */,
+				B4ECE528192C910CE8BCD04D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				05612A2F20008BE70039A940 /* PBXTargetDependency */,
 			);
-			name = "Voicey-iosTests";
+			name = "voicey-iosTests";
 			productName = "voicy-iosTests";
-			productReference = 05612A2D20008BE70039A940 /* Voicey-iosTests.xctest */;
+			productReference = 05612A2D20008BE70039A940 /* voicey-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -313,7 +368,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 05612A1120008BE70039A940 /* Build configuration list for PBXProject "Voicey-ios" */;
+			buildConfigurationList = 05612A1120008BE70039A940 /* Build configuration list for PBXProject "voicey-ios" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -326,8 +381,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05612A1520008BE70039A940 /* Voicey-ios */,
-				05612A2C20008BE70039A940 /* Voicey-iosTests */,
+				05612A1520008BE70039A940 /* voicey-ios */,
+				05612A2C20008BE70039A940 /* voicey-iosTests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,13 +412,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		237A9344C9CF3DE780A96C40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-voicey-ios/Pods-voicey-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D070A02DB0FFE0A1CCB1306 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-voicey-iosTests/Pods-voicey-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E3079E9CE7F40E90756515 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-voicey-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3EC0BED87C0819198A12B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-voicey-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B306289703FB00A8B41C7C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-voicey-ios/Pods-voicey-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-voicey-ios/Pods-voicey-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4ECE528192C910CE8BCD04D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-voicey-iosTests/Pods-voicey-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05612A1220008BE70039A940 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				05612A6A20009F180039A940 /* CreateMemoViewController.swift in Sources */,
+				B8AE4A4E204CB90E00DE8144 /* AudioHandler.swift in Sources */,
 				05612A4D200091D20039A940 /* LoginViewController.swift in Sources */,
+				B8AE4A4B204CB5F600DE8144 /* MemoModel.swift in Sources */,
 				05612A6E2000A1F10039A940 /* MemoListDatasource.swift in Sources */,
 				05612A552000924E0039A940 /* MemoListCell.swift in Sources */,
 				05612A61200095DF0039A940 /* UIWindow+Extensions.swift in Sources */,
@@ -372,6 +535,7 @@
 				05612A51200091E30039A940 /* MemoListViewController.swift in Sources */,
 				05612A5E200092C20039A940 /* NibLoadable.swift in Sources */,
 				05612A49200091C80039A940 /* RegisterViewController.swift in Sources */,
+				B8AE4A49204CB5ED00DE8144 /* UserModel.swift in Sources */,
 				05612A6320009E0A0039A940 /* VoiceyHTTPClient.swift in Sources */,
 				05612A5D200092C20039A940 /* UIViewController+Extensions.swift in Sources */,
 				05612A5C200092C20039A940 /* UIColor+Extensions.swift in Sources */,
@@ -384,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05612A3220008BE70039A940 /* voicy_iosTests.swift in Sources */,
+				05612A3220008BE70039A940 /* voicey_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +557,7 @@
 /* Begin PBXTargetDependency section */
 		05612A2F20008BE70039A940 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 05612A1520008BE70039A940 /* Voicey-ios */;
+			target = 05612A1520008BE70039A940 /* voicey-ios */;
 			targetProxy = 05612A2E20008BE70039A940 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -519,11 +683,12 @@
 		};
 		05612A3720008BE70039A940 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693D077C9B2252B7B7B7AF60 /* Pods-voicey-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L8W3EB4SJ;
-				INFOPLIST_FILE = "voicy-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/voicey-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordoneliel.voicy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,11 +699,12 @@
 		};
 		05612A3820008BE70039A940 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB37113093A015BA02200D4 /* Pods-voicey-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L8W3EB4SJ;
-				INFOPLIST_FILE = "voicy-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/voicey-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordoneliel.voicy-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,42 +715,44 @@
 		};
 		05612A3A20008BE70039A940 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBC733FB9D76E05D57D15F8 /* Pods-voicey-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U8XN6EMRDC;
+				DEVELOPMENT_TEAM = 3L8W3EB4SJ;
 				INFOPLIST_FILE = "voicy-iosTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordoneliel.voicy-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voicey-ios.app/Voicey-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voicey-ios.temp_caseinsensitive_rename.app/voicey-ios.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
 		05612A3B20008BE70039A940 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D23133DF2D5742ED628AB65 /* Pods-voicey-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U8XN6EMRDC;
+				DEVELOPMENT_TEAM = 3L8W3EB4SJ;
 				INFOPLIST_FILE = "voicy-iosTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordoneliel.voicy-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voicey-ios.app/Voicey-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voicey-ios.temp_caseinsensitive_rename.app/voicey-ios.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05612A1120008BE70039A940 /* Build configuration list for PBXProject "Voicey-ios" */ = {
+		05612A1120008BE70039A940 /* Build configuration list for PBXProject "voicey-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05612A3420008BE70039A940 /* Debug */,
@@ -593,7 +761,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05612A3620008BE70039A940 /* Build configuration list for PBXNativeTarget "Voicey-ios" */ = {
+		05612A3620008BE70039A940 /* Build configuration list for PBXNativeTarget "voicey-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05612A3720008BE70039A940 /* Debug */,
@@ -602,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05612A3920008BE70039A940 /* Build configuration list for PBXNativeTarget "Voicey-iosTests" */ = {
+		05612A3920008BE70039A940 /* Build configuration list for PBXNativeTarget "voicey-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05612A3A20008BE70039A940 /* Debug */,
