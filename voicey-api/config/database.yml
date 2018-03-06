@@ -14,11 +14,10 @@ test:
   username: johnathan
   password: 7898521c
 
-
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: voicey_production
-  pool: 5
-  username: johnathan
-  password: 7898521c
+    adapter: postgresql
+    encoding: unicode
+    pool: 5
+    database: ec2-54-243-31-34.compute-1.amazonaws.com
+    username: ogeipqmfajtwrv
+    password: ac895fe9e1e67428ac63d0b290699155c57228f5e7405d7353ae000ba631075a

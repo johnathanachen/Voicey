@@ -1,3 +1,7 @@
 class MemoSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :title, :text_body, :time, :voice_file_url
+
+  def voice_file_url
+    object.voice_file.url()
+  end
 end

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "UserControllers", type: :request do
-    
+
   describe "GET /user_controllers" do
     context "unauthorized" do
       before {
@@ -16,8 +16,8 @@ RSpec.describe "UserControllers", type: :request do
     context "authorized" do
       before {
         user = User.new(
-          name: "Eliel",
-          email: "eliel@test.com",
+          name: "Johnathan",
+          email: "Johnathan@test.com",
           password: "test"
         )
 
@@ -38,7 +38,7 @@ RSpec.describe "UserControllers", type: :request do
   describe "POST /user_controllers" do
     context "valid params" do
       before {
-        valid_params = {name: "Eliel", email: "eliel@test.com", password: "testpassword"}
+        valid_params = {name: "Johnathan", email: "Johnathan@test.com", password: "testpassword"}
         post "/users", params: valid_params
       }
 
@@ -48,7 +48,7 @@ RSpec.describe "UserControllers", type: :request do
     end
     context "invalid params" do
       before {
-        invalid_params = {email: "eliel@test.com", password: "testpassword"}
+        invalid_params = {email: "Johnathan@test.com", password: "testpassword"}
         post "/users", params: invalid_params
       }
 
